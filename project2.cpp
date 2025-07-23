@@ -284,9 +284,9 @@ namespace Tests {
         // Test 4: Real file test with known values
         {
             uint8_t pixels[12] = {
-                255, 0, 0,
-                0, 255, 0,
                 0, 0, 255,
+                0, 255, 0,
+                255, 0, 0,
                 128, 128, 128
             };
             Image test;
@@ -371,4 +371,3 @@ int main(int argc, char* argv[]) {
     }
     return 0;
 }
-
